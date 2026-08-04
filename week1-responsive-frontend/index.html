@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PeakPace — Run Lebanon, coast to summit</title>
+  <meta name="description" content="PeakPace tracks your runs from the coast to the mountains of Lebanon — pace, elevation, and training plans in one app.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#" class="logo">Peak<span>Pace</span></a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="sr-only">Menu</span>
+      </button>
+
+      <nav class="primary-nav" id="primaryNav" aria-label="Primary">
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#how">How It Works</a></li>
+          <li><a href="#stats">Stats</a></li>
+          <li><a href="#download">Download</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section class="hero">
+      <div class="hero-inner">
+        <h1>Run Lebanon,<br>coast to summit.</h1>
+        <p class="hero-sub">Track pace, elevation, and heart rate on every route — from the Corniche to the peaks of Mount Lebanon.</p>
+        <a href="#download" class="btn btn-primary">Get the app</a>
+
+        <svg class="elevation" viewBox="0 0 400 80" preserveAspectRatio="none" aria-hidden="true">
+          <polyline points="0,70 60,65 100,50 140,55 180,30 220,35 260,15 300,20 340,8 400,10"
+                    fill="none" stroke="#A0D4E0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <h2>Everything you need on the run</h2>
+      <div class="card-row">
+        <article class="card">
+          <h3>GPS route mapping</h3>
+          <p>Every run is mapped in real time, with distance, pace, and elevation gain tracked automatically.</p>
+        </article>
+        <article class="card">
+          <h3>Heart rate zones</h3>
+          <p>See exactly which zone you're training in, so easy runs stay easy and hard efforts count.</p>
+        </article>
+        <article class="card">
+          <h3>Custom training plans</h3>
+          <p>Build a plan around a race, a fitness test, or just getting faster — adjustable week by week.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="stats" id="stats">
+      <div class="stats-row">
+        <div class="stat">
+          <span class="stat-num">12,400+</span>
+          <span class="stat-label">routes mapped</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">3,800</span>
+          <span class="stat-label">active runners</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">21%</span>
+          <span class="stat-label">avg. pace improvement</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="how" id="how">
+      <h2>How it works</h2>
+      <ol class="how-steps">
+        <li class="how-step">
+          <span class="step-num">01</span>
+          <h3>Set your goal</h3>
+          <p>Pick a distance, a pace target, or a test date to train toward.</p>
+        </li>
+        <li class="how-step">
+          <span class="step-num">02</span>
+          <h3>Start tracking</h3>
+          <p>Open the app before you run — GPS and heart rate start logging instantly.</p>
+        </li>
+        <li class="how-step">
+          <span class="step-num">03</span>
+          <h3>Follow your pace</h3>
+          <p>Live splits keep you on target, with alerts if you drift off pace.</p>
+        </li>
+        <li class="how-step">
+          <span class="step-num">04</span>
+          <h3>Review your run</h3>
+          <p>See your elevation profile, splits, and heart rate zones right after you finish.</p>
+        </li>
+      </ol>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" id="download">
+    <div class="footer-inner">
+      <div class="footer-block">
+        <h2>Get PeakPace</h2>
+        <p><a href="#">Download on the App Store</a></p>
+        <p><a href="#">Get it on Google Play</a></p>
+      </div>
+      <div class="footer-block">
+        <h2>Get in touch</h2>
+        <p><a href="mailto:hello@peakpace.app">hello@peakpace.app</a></p>
+        <p>Beirut, Lebanon</p>
+      </div>
+    </div>
+    <p class="footer-note">&copy; 2026 PeakPace. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
